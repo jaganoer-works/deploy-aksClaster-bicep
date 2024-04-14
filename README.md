@@ -44,8 +44,19 @@ aks-agentpool-27747216-vmss000001   Ready    agent   11m   v1.28.5
 aks-agentpool-27747216-vmss000002   Ready    agent   11m   v1.28.5
 ```
 
-## クラスターの削除
+## 作成したリソースをすべて削除する
 ```bash
 az group delete --name myResourceGroup --yes --no-wait
+```
+## スクリプトの使用
+デプロイ
+```bash
+chmod +x deploy-aksCluster.sh
+./deploy-aksCluster.sh
+```
+作成したリソースをすべて削除する
+```bash
+chmod +x deploy-aksCluster.sh
+./delete-aksCluster.sh*
 ```
 
