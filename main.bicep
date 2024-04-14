@@ -1,5 +1,5 @@
 @description('AKSクラスター名')
-param clusterName string = 'aks101cluster'
+param clusterName string = 'myAksCluster'
 
 @description('リソースグループの場所')
 param location string = resourceGroup().location
