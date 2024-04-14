@@ -57,6 +57,6 @@ chmod +x deploy-aksCluster.sh
 作成したリソースをすべて削除する
 ```bash
 chmod +x deploy-aksCluster.sh
-./delete-aksCluster.sh*
+./delete-aksCluster.sh
 ```
 
